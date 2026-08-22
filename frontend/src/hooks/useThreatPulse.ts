@@ -46,9 +46,9 @@ export function useThreatPulse() {
       simulation: {
         active: false,
         phase: "idle",
-        message: "Browser demo mode",
+        message: "Browser demo mode — no backend required",
       } as SimulationStatus,
-      connected: false,
+      connected: true,
       latestAlert: null as Alert | null,
     })
   );
