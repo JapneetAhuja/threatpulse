@@ -13,3 +13,6 @@ dist/
 build/
 .tools/
 .tools-npm/
+
+# Local Netlify folder
+.netlify
